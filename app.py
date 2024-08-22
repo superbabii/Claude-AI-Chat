@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 import os
-import asyncio
 import subprocess
 from waitress import serve
 
@@ -20,7 +19,4 @@ def run_claude():
     return jsonify(result.stdout)
 
 if __name__ == '__main__':
-    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     serve(app, host='0.0.0.0', port=5000)
-
-
