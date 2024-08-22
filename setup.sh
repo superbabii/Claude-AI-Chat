@@ -32,7 +32,7 @@ echo "Installing required Python packages..."
 pip install -r requirements.txt
 
 # Step 7: Run the Flask app
-echo "Running the Flask app..."
-python app.py
+# echo "Running the Flask app..."
+# python app.py
 
 # End of script
