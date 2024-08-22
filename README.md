@@ -25,7 +25,6 @@ To start the chat application, run:
 python app.py
 ```
 
-The application will be available at http://127.0.0.1:5000.
 Navigate to http://127.0.0.1:5000 in your browser. You will be presented with a simple UI to select which Claude AI model you want to use. Enter your text and interact with the model in real-time.
 
 ## Contributing
