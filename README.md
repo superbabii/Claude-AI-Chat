@@ -18,6 +18,14 @@ Claude-AI-Chat is a simple chat application built using Claude AI. It provides a
    ./setup.sh
    ```
 
+3. Set up your environment variables:
+
+   In the `.env` file, replace the placeholders with your actual API keys:
+   ```env
+   ANTHROPIC_API_KEY="your_anthropic_api_key"
+   TAVILY_API_KEY="your_tavily_api_key"
+   ```
+
 ## Usage
 
 To start the chat application, run:
